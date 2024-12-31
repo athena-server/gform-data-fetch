@@ -1,0 +1,28 @@
+{
+  "name": "gform-data-fetch",
+  "version": "1.0.0",
+  "description": "Clasp lets you to develop your Apps Script projects locally. You can write code on your own computer and upload it to Apps Script when you're done.",
+  "main": "src/code.gs",
+  "scripts": {
+    "login": "clasp login",
+    "logout": "clasp logout",
+    "upload": "clasp push",
+    "status": "clasp status",
+    "deploy": "clasp deploy",
+    "create-proj": "clasp create --type standalone --title 'Athena-Gform'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athena-server/gform-data-fetch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athena-server/gform-data-fetch/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/athena-server/gform-data-fetch#readme",
+  "dependencies": {
+    "clasp": "^1.0.0"
+  }
+}
