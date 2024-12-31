@@ -9,7 +9,7 @@
     "upload": "clasp push",
     "status": "clasp status",
     "deploy": "clasp deploy",
-    "create-proj": "clasp create --type standalone --title 'Athena-Gform'"
+    "create-proj": "clasp create --type standalone --rootDir src --title 'Athena-Gform'"
   },
   "repository": {
     "type": "git",
