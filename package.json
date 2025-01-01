@@ -6,7 +6,7 @@
   "scripts": {
     "login": "clasp login",
     "logout": "clasp logout",
-    "upload": "clasp push",
+    "push": "clasp push",
     "status": "clasp status",
     "deploy": "clasp deploy",
     "create-proj": "clasp create --type standalone --rootDir src --title 'Athena-Gform'"
