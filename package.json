@@ -24,6 +24,6 @@
   "type": "module",
   "homepage": "https://github.com/athena-server/gform-data-fetch#readme",
   "dependencies": {
-    "clasp": "^1.0.0"
+    "@google/clasp": "^2.4.2"
   }
 }
