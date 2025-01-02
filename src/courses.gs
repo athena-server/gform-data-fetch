@@ -1,5 +1,18 @@
 const gfomrUrl = "ADD_YOUR_LINK_HERE"; // Link will be of the form 'https://docs.google.com/forms/d/FORM_ID/edit'
 
+const semesters = [
+    "Monsoon 2020-21",
+    "Winter 2020-21",
+    "Monsoon 2021-22",
+    "Winter 2021-22",
+    "Monsoon 2022-23",
+    "Winter 2022-23",
+    "Monsoon 2023-24",
+    "Winter 2023-24",
+    "Monsoon 2024-25",
+    "Winter 2024-25"
+];
+
 const courses = [
     {
         "courseId": "CS3091D",

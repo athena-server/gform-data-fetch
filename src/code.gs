@@ -14,16 +14,18 @@ function gform() {
         .setAllowResponseEdits(false)
         .setAcceptingResponses(true);
 
-    // Format the course data into dropdown options
-    const dropdownOptions = courses.map(course => `${course.courseId} - ${course.courseTitle}`);
+    // Format the course and semester data into dropdown options
+    const dropdownOptionsCourse = courses.map(course => `${course.courseId} - ${course.courseTitle}`);
+    const dropdownOptionsSemester = semesters.map(sem => sem);
   
-    form.addTextItem()
-        .setTitle("Batch")
+    form.addListItem()
+        .setTitle("Semester")
+        .setChoiceValues(dropdownOptionsSemester)
         .setRequired(true);
 
     form.addListItem()
         .setTitle("Course")
-        .setChoiceValues(dropdownOptions)
+        .setChoiceValues(dropdownOptionsCourse)
         .setRequired(true);
   
     form.addScaleItem()
