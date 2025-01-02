@@ -15,7 +15,7 @@ Clasp lets you develop your Apps Script projects locally. You can write code on 
     ```
 1. Install the dependencies
     ```bash
-    npm install dependencies
+    npm install 
     ```
 
 1.  Login to your google account through clasp
