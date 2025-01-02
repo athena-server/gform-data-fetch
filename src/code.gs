@@ -1,7 +1,7 @@
 function gform() {
     // Open a form by ID
     const form = FormApp.openByUrl(
-        'https://docs.google.com/forms/d/1lbLbIy3Ph3eeSEEf--OLj17Vmg7y3unJqIWAwWsl5a4/edit'
+            gfomrUrl
         );
     
     //Delete all existing items

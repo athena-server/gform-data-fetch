@@ -1,3 +1,5 @@
+const gfomrUrl = "ADD_YOUR_LINK_HERE"; // Link will be of the form 'https://docs.google.com/forms/d/FORM_ID/edit'
+
 const courses = [
     {
         "courseId": "CS3091D",
