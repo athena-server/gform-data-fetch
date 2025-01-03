@@ -4,8 +4,8 @@ Clasp lets you develop your Apps Script projects locally. You can write code on 
 
 ## Requirements
 
-1. You will need to start with a dummy gform whose url(with edit permissions) is needed. After running this script, the gform will be edited accordingly. Hence, ensure that you use a gform from your google account. 
-2. Enable the Google Apps Script API for your google account: [Click here to go to settings](https://script.google.com/home/usersettings)
+1. Enable the Google Apps Script API for your google account: [Click here to go to settings](https://script.google.com/home/usersettings)
+1.  Use the same google account to create a dummy gform in you google drive. Click the `publish` button to publish the gform. We will be editing this google form from the Apps Script.
 
 
 ## Google Form
@@ -68,7 +68,7 @@ Clasp lets you develop your Apps Script projects locally. You can write code on 
     ```bash
     npm run push
     ```
-    An Apps Script project named `Athena-Gform` is now created in your Google Drive.
+    Three files in the src folder is pushed. An Apps Script project named `Athena-Gform` is now created in your Google Drive. 
 
 1.  Open the project
     ```bash

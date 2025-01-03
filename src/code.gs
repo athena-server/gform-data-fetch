@@ -14,13 +14,12 @@ function gform() {
         .setAllowResponseEdits(false)
         .setAcceptingResponses(true);
 
-    // Format the course and semester data into dropdown options
+    // Format the course data into dropdown options
     const dropdownOptionsCourse = courses.map(course => `${course.courseId} - ${course.courseTitle}`);
-    const dropdownOptionsSemester = semesters.map(sem => sem);
-  
+
     form.addListItem()
         .setTitle("Semester")
-        .setChoiceValues(dropdownOptionsSemester)
+        .setChoiceValues(semesters)
         .setRequired(true);
 
     form.addListItem()
